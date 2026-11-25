@@ -3,6 +3,11 @@
 Writes one line -- a roast of a banking app the writer uses every day --
 to /output/entry.txt. Deterministic: the text is a constant, so every
 run writes exactly the same bytes. Standard library only, no network.
+
+The line is candidate V14x from the concept tournament (konsep.md):
+it won the 30-call internal self-jury 10-0 against its closest rival,
+the two-beat version V14, by adding a third beat ("and then asked if
+that was me").
 """
 
 import os
